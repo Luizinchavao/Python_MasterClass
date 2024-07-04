@@ -1,7 +1,7 @@
                                                # ASIMOV CURSOS #
 Uso da IDE Mu                                  PYTHON MASTERCLASS 
 
-Programaçao é uma coisa que exige muita pratica, para acustumar bem o cérebro,                                                                                      
+                     Programaçao é uma coisa que exige muita pratica, para acustumar bem o cérebro                                                                                      
      
                                        
 Iniciando Projeto Web Na Área de Dados
@@ -270,4 +270,36 @@ Out[42]: True
 (3>2) or (2>1)
 Out[43]: True
 
+----------------------------------------------------------------------------------------------
 
+
+AULA 7 # If, Elif e Else
+
+
+A penultima aula dessa parte introdutória de Python, vamos falar sobre Estrutura de Controle de Fluxo, 
+ou seja, agente permitir que o código va para um lado e va para um outro, dependendo da regra pré-estabelecida
+
+#if -> traduçao literal é-> se. if -> vem combinado com um booliano
+# É eu perguntando para o computador, se alguma coisa for verdadeira, quero que faça algo.
+# else -> Traduçao literal: "Se nao"
+
+If combinado com boleano comparado com operadores de Operaçao de cadeias, estamos decidindo que trechos ele vai 
+executar ou nao, vai ignorar alguns trechos e vai executar outros trechos
+
+idade = 18
+possui_carteira = False
+
+if(idade >= 18) and possui_carteira: 
+    print("Você pode dirigir") 
+elif possui_carteira:
+    print("Você apenas possui carteira. Espere a idade")       
+else: 
+    print("Você nao pode dirigir")    
+
+Essa aula foi uma estrutura de controle de fluxo, define para onde nosso código vai
+
+-----------------------------------------------------------------------------------------------------------------
+
+AULA 8 # For - Repetiçao - é a forma de ficar repetindo o código até que uma condiçao seja verdadeira.
+Vai ajudar agente vai ser super útil que vai ver nossos Review e vai printar, tem review, printa, tem review...
+Ou seja, vai ficar vendo todos até acabar os Review
