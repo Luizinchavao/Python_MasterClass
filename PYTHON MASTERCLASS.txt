@@ -1,9 +1,10 @@
+                                               # ASIMOV CURSOS #
                                               PYTHON MASTERCLASS 
-                                                 Uso da IDE Mu 
-                                             
-# ASIMOV CURSOS #
+
+                                                                                        
+Uso da IDE Mu     
                                        
-                                     Iniciando projeto web na area de dados
+Iniciando Projeto Web Na Área de Dados
 
 
 AULA 1 # O que e linguagem de programaçao ok
@@ -17,46 +18,45 @@ AULA 8 # For
 
 Chaves { }
 Colchetes [ ]     
+-------------------------------------------------------------------------------
 
+AULA 3 - # Hello Word, Numeros e REPL
 
  # Escreva o seu código aqui :-)
 
+                     
+print("Hello Python")   
+# O print ele printa a mensagem na tela com parametros " " -> aspas
 
-Python tem 2 tipos basicos de numeros:
+Python tem 2 tipos basicos de números:
 
 INTEIROS   e   DECIMAIS
 1 int               0,5 -> Tratado como um float
-                       
 
-print("Hello Python")   #  O print ele printa a mensagem na tela com parametros " " -> aspas
- 
+# Numeros, matematica
 
-print(1+2)              # Numeros, matematica.
-print(1-2)
-print(1*2)
-print(1/2) o resultado 
-print(1**2)
+print(1+2)  # Adiçao            
+print(1-2)  # Subtraçao 
+print(1*2)  # Multiplicaçao
+print(1/2)  # Divisao 
+print(1**2) # Elevado ao quadrado
 
 
 print(type (1))             # Checar o tipo de qualquer dado ex numero (1)
 
+---------------------------------------------------------------------------------
 
-# Strings e Variáveis
+AULA 4 - # Strings e Variáveis
 
-
-
-Strings -> 
+#Strings -> 
 
 Sao textos " "  Qualquer coisa dentro de strings é um texto .
 Possibilidde de registrar string: Escrever entre aspas -> duplas(" ") ou simples->(' ')
-
 
 Jupyter QtConsole 4.7.7
 Python 3.8.12 (default, Oct 17 2021, 23:47:18) [MSC v.1929 64 bit (AMD64)]
 Type 'copyright', 'credits' or 'license' for more information
 IPython 8.6.0 -- An enhanced Interactive Python. Type '?' for help.
-
-
 
 1+2
 Out[1]: 3
@@ -96,13 +96,12 @@ Out[11]: float
 Out[12]: 'Ola, Luizin' 
 
 
-  -> Alguns conceitos importantes de string - Concatenaçao de string, ele soma junta as strings.
-                                  Em string - Operaçao de subtraçao (-) nao sao permitidas.
-                                  Em string - Pode somar com string, com numeros nao da erro. 
-                                  Em string - Voce pode concatenar str nao inteiros com str nao inteiros ex: TypeError.
+# Alguns conceitos importantes de string -> Concatenaçao de string, ele soma junta as strings.
+# Em string = str -> Operaçao de subtraçao (-) nao sao permitidas.
+# Em string -> Pode somar com string, com numeros nao da erro. 
+# Em string -> Voce pode concatenar str nao inteiros com str nao inteiros ex: TypeError.             
 
-
- Um exemplo de erro:
+                                Um exemplo de erro:
 
 In [13]: "Ola, " + 2
 ---------------------------------------------------------------------------
@@ -112,8 +111,7 @@ Cell In [13], line 1
 TypeError: can only concatenate str (not "int") to str
 
 
-
-Variaveis->  
+# Variaveis->  
 
 São caixas que ele IDE ex: Python C++, cria para agente guardar valores.
 Ele vai carregar esses valores com ele a medida que o script estiver executando.
@@ -121,7 +119,7 @@ Se agente definir matar o script, ou desligar ele, ele vai jogar fora todas as c
 Todas essas informaçoes sao temporarias.
 
 
-Criar uma variável: 
+# Criar uma variável: 
 
 Existem regras para criar uma variavel que são:
 1 - Não podem começar com números
@@ -148,3 +146,34 @@ A= pi. raio ao quadrado
 A= Área                            
 pi= 3,14
 R= Raio
+
+
+
+# AULA 5 - Formataçao em String, listas e Slicing
+
+# Utilize a letra f= Mostrando que vou formatar essa string utilizando variaveis
+# Dentro das chaves, dado que eu tenha esse f antes da string, sempre que ele encontrar uma chaves, 
+# ele vai procurar o que tem dentro e tentar substituir. 
+# Variaveis sao caixinhas, já as litas sao caixinhas com compartimentos
+# Consigo colocar dentro de uma caixa multiplos objetos ao mesmo tempo
+# Existem alguns tipos de dados que vem em Grupos
+# Saber manipular esses elementos em grupos é muito importante 
+# Listas estao em colchetes [] separados por vírgula ,
+# Cada valor que é colocado, pode ser qualquer valor do tipo inteiro, string, float, lista
+
+a = ["Olá", "Luizin"] # Variavel unica que contém 2 valores
+# len = Vai dizer qual o tamanho de algum elemento 
+# Seleçao de lista, quando for selecionar algo no fim da lista: a = [-1]-> vai ler o último elemento
+# Seleçao de intervalo na lista com dois pontos :# Ele vai permitir que faça cortes na lista.
+# Ex: a[1:4]-> vai ler o segundo elemento, o terceiro e nao vai ler o quarto elemento da lista.
+# Uma string também é iteiravel de caracteres, é a soma de todas as letras e dos espaços que existirem
+# Tudo que fiz com listas, posso fazer com strings, posso perguntar o tamanho com (len)
+# Ou posso selecionar caractere de maneira individual com [] ex: b[2] ou b[0:4]
+# O igual = é para definir a variavel
+# Uma pincelada no conceito de Slicing é importante para que consiga trabalhar com Dashboard depois
+# Slicing para podermos fazer manipulaçao de dados.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Até aqui já vimos: NÚMEROS - VARIAVEIS - MÉTODOS - LISTA -UM POUCO DE SLICING PRÓXIMO PASSO ->SOBRE BOOLEANOS. 
