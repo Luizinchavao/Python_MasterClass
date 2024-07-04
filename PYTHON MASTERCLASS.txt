@@ -1,8 +1,8 @@
                                                # ASIMOV CURSOS #
-                                              PYTHON MASTERCLASS 
+Uso da IDE Mu                                  PYTHON MASTERCLASS 
 
-                                                                                        
-Uso da IDE Mu     
+Programaçao é uma coisa que exige muita pratica, para acustumar bem o cérebro,                                                                                      
+     
                                        
 Iniciando Projeto Web Na Área de Dados
 
@@ -17,23 +17,23 @@ AULA 7 # If, Elif e Else
 AULA 8 # For
 
 Chaves { }
-Colchetes [ ]     
+Colchetes [ ]     ?
 -------------------------------------------------------------------------------
+
 
 AULA 3 - # Hello Word, Numeros e REPL
 
  # Escreva o seu código aqui :-)
 
                      
-print("Hello Python")   
-# O print ele printa a mensagem na tela com parametros " " -> aspas
+print("Hello Python")  # O print ele printa a mensagem na tela com parametros " " -> aspas
 
 Python tem 2 tipos basicos de números:
 
 INTEIROS   e   DECIMAIS
 1 int               0,5 -> Tratado como um float
 
-# Numeros, matematica
+# Numeros, Matematica
 
 print(1+2)  # Adiçao            
 print(1-2)  # Subtraçao 
@@ -44,9 +44,11 @@ print(1**2) # Elevado ao quadrado
 
 print(type (1))             # Checar o tipo de qualquer dado ex numero (1)
 
----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+
 
 AULA 4 - # Strings e Variáveis
+
 
 #Strings -> 
 
@@ -130,7 +132,7 @@ Existem regras para criar uma variavel que são:
 -> Números 
 -> Underline _ Significa -> Sublinhado
 
-Qualque nome usa operador igual e atribuiçao ex: 
+Qualque nome " "  usa operador igual e atribuiçao ex: 
 
 b = "Ola "
 print(b + "Luizin")
@@ -141,15 +143,17 @@ manipular informações, trocar elas, printar na tela, guardar essas informaçõ
 Variáveis são uma estrutura fundamental em qualquer linguagem de programaçao.
 
 
-Calcular a Área de um circulo: A= pi.r ** ou A= pi.r^2
+Calcular a Área de um círculo: A= pi.r ** ou A= pi.r^2
 A= pi. raio ao quadrado   
 A= Área                            
 pi= 3,14
 R= Raio
 
+-----------------------------------------------------------------------------------------------------
 
 
 # AULA 5 - Formataçao em String, listas e Slicing
+
 
 # Utilize a letra f= Mostrando que vou formatar essa string utilizando variaveis
 # Dentro das chaves, dado que eu tenha esse f antes da string, sempre que ele encontrar uma chaves, 
@@ -176,4 +180,94 @@ a = ["Olá", "Luizin"] # Variavel unica que contém 2 valores
 
 -------------------------------------------------------------------------------------------------------
 
-Até aqui já vimos: NÚMEROS - VARIAVEIS - MÉTODOS - LISTA -UM POUCO DE SLICING PRÓXIMO PASSO ->SOBRE BOOLEANOS. 
+Até aqui já vimos: NÚMEROS - VARIAVEIS - MÉTODOS - LISTA -UM POUCO DE SLICING PRÓXIMO PASSO ->SOBRE BOOLEANOS.
+
+#1 igual = atribuiçao de nome #2 iguais =  
+--------------------------------------------------------------------------------------------------------
+
+
+AULA 6 # Booleanos e Operadores de Comparaçao
+
+
+# O "sim e o nao" de uma linguagem de programaçao. O Verdadeiro ou Falso.
+# True e False = Entender operar True e False é muito importante. Type(Ele lê o tipo)
+# Ferramentas: Operadores de Comparaçao Símbolo de maior > e menor < 
+# Faço uma pergunta para o computador a resposta dele é: Verdadeiro ou Falso
+a = 3 > 2   # É maior do que 2 ?             
+b = 3 < 2   # É menor do que 2 ?              
+c = 2 >= 2  # É maior ou igual do que 2 ?   
+d = 2 <= 2  # É menor ou igual do que 2 ?      
+e = 2 != 2  # É diferente do que 2 ?                               
+False       #Sao Operadores que vamos combinar apenas com: Boolianos
+True        #Principais tipos de Comparações. Misturar essas comparações,
+            #Com outros elementos como AND e OR
+            #Utilizando parametros para agrupar essas operações
+
+
+b
+Out[20]: [2]
+
+b = "luizin"
+
+len(b)
+Out[22]: 6
+
+b[0]
+Out[23]: 'l'
+
+b[2]
+Out[24]: 'i'
+
+b[0:4]
+Out[25]: 'luiz'
+
+len(b)
+Out[26]: 6
+
+b[0]
+Out[27]: 'l'
+
+type (True)
+Out[28]: bool
+
+type(False)
+Out[29]: bool
+
+a
+Out[30]: ['Olá', 'Luizin', 2, 2.5, 'teste']
+
+a = 3 > 2
+
+a
+Out[32]: True
+
+b = 3 < 2
+
+b
+Out[34]: False
+
+c = 2 >= 2
+
+c
+Out[36]: True
+
+d = 2 <= 2
+
+d
+Out[38]: True
+
+e = 2 != 2
+
+e
+Out[40]: False
+
+True and True
+Out[41]: True
+
+(3>2) and (2>1)
+Out[42]: True
+
+(3>2) or (2>1)
+Out[43]: True
+
+
