@@ -1,0 +1,150 @@
+                                              PYTHON MASTERCLASS 
+                                                 Uso da IDE Mu 
+                                             
+# ASIMOV CURSOS #
+                                       
+                                     Iniciando projeto web na area de dados
+
+
+AULA 1 # O que e linguagem de programaçao ok
+AULA 2 # Instalando Mu ok
+AULA 3 # Hello Word, Numeros e REPL ok
+AULA 4 # Strings e Variáveis ok
+AULA 5 # Formataçao em String, listas e Slicing 
+AULA 6 # Booleanos e Operadores de Comparaçao
+AULA 7 # If, Elif e Else
+AULA 8 # For
+
+Chaves { }
+Colchetes [ ]     
+
+
+ # Escreva o seu código aqui :-)
+
+
+Python tem 2 tipos basicos de numeros:
+
+INTEIROS   e   DECIMAIS
+1 int               0,5 -> Tratado como um float
+                       
+
+print("Hello Python")   #  O print ele printa a mensagem na tela com parametros " " -> aspas
+ 
+
+print(1+2)              # Numeros, matematica.
+print(1-2)
+print(1*2)
+print(1/2) o resultado 
+print(1**2)
+
+
+print(type (1))             # Checar o tipo de qualquer dado ex numero (1)
+
+
+# Strings e Variáveis
+
+
+
+Strings -> 
+
+Sao textos " "  Qualquer coisa dentro de strings é um texto .
+Possibilidde de registrar string: Escrever entre aspas -> duplas(" ") ou simples->(' ')
+
+
+Jupyter QtConsole 4.7.7
+Python 3.8.12 (default, Oct 17 2021, 23:47:18) [MSC v.1929 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.6.0 -- An enhanced Interactive Python. Type '?' for help.
+
+
+
+1+2
+Out[1]: 3
+
+print(1+2)
+3
+
+"Ola Luizin"
+Out[3]: 'Ola Luizin'
+
+type("Ola Luizin")
+Out[4]: str
+
+type("1")
+Out[5]: str
+
+"1"
+Out[6]: '1'
+
+"1,0"
+Out[7]: '1,0'
+
+type("1,9")
+Out[8]: str
+
+type("1.9")
+Out[9]: str
+
+type(1)
+Out[10]: int
+
+type(1.9)
+Out[11]: float
+
+"Ola, " + "Luizin"         
+                                  
+Out[12]: 'Ola, Luizin' 
+
+
+  -> Alguns conceitos importantes de string - Concatenaçao de string, ele soma junta as strings.
+                                  Em string - Operaçao de subtraçao (-) nao sao permitidas.
+                                  Em string - Pode somar com string, com numeros nao da erro. 
+                                  Em string - Voce pode concatenar str nao inteiros com str nao inteiros ex: TypeError.
+
+
+ Um exemplo de erro:
+
+In [13]: "Ola, " + 2
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In [13], line 1
+----> 1 "Ola, " + 2 
+TypeError: can only concatenate str (not "int") to str
+
+
+
+Variaveis->  
+
+São caixas que ele IDE ex: Python C++, cria para agente guardar valores.
+Ele vai carregar esses valores com ele a medida que o script estiver executando.
+Se agente definir matar o script, ou desligar ele, ele vai jogar fora todas as caixas.
+Todas essas informaçoes sao temporarias.
+
+
+Criar uma variável: 
+
+Existem regras para criar uma variavel que são:
+1 - Não podem começar com números
+2 - Podem começar com Underline ou Letras Ex: _raio_ao_quadrado ou raio_ao_quadrado
+3 - Podemos ultilizar letras Maiúsculas   Ex: Raio_ao_quadrado
+4 - Nomes de variáveis são diferentes se ultilizar letras em Maiúsculas e letras em minúsculas ex acima 3
+-> Letras
+-> Números 
+-> Underline _ Significa -> Sublinhado
+
+Qualque nome usa operador igual e atribuiçao ex: 
+
+b = "Ola "
+print(b + "Luizin")
+
+
+Isso e útil pois ao longo do código vamos precisar trabalhar com esses valores, vamos precisar, 
+manipular informações, trocar elas, printar na tela, guardar essas informações que o usuario nos passa.
+Variáveis são uma estrutura fundamental em qualquer linguagem de programaçao.
+
+
+Calcular a Área de um circulo: A= pi.r ** ou A= pi.r^2
+A= pi. raio ao quadrado   
+A= Área                            
+pi= 3,14
+R= Raio
