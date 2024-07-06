@@ -162,18 +162,21 @@ R= Raio
 # Consigo colocar dentro de uma caixa multiplos objetos ao mesmo tempo
 # Existem alguns tipos de dados que vem em Grupos
 # Saber manipular esses elementos em grupos é muito importante 
-# Listas estao em colchetes [] separados por vírgula ,
+# Listas estao em colchetes [] separados por vírgula , = list
 # Cada valor que é colocado, pode ser qualquer valor do tipo inteiro, string, float, lista
 
 a = ["Olá", "Luizin"] # Variavel unica que contém 2 valores
+
+# O igual = é para definir a variavel
 # len = Vai dizer qual o tamanho de algum elemento 
 # Seleçao de lista, quando for selecionar algo no fim da lista: a = [-1]-> vai ler o último elemento
-# Seleçao de intervalo na lista com dois pontos :# Ele vai permitir que faça cortes na lista.
+# Seleçao de intervalo na lista com dois pontos :
+# Ele vai permitir que faça cortes na lista.
 # Ex: a[1:4]-> vai ler o segundo elemento, o terceiro e nao vai ler o quarto elemento da lista.
-# Uma string também é iteiravel de caracteres, é a soma de todas as letras e dos espaços que existirem
+# Uma string também é iteravel de caracteres, é a soma de todas as letras e dos espaços que existirem
 # Tudo que fiz com listas, posso fazer com strings, posso perguntar o tamanho com (len)
 # Ou posso selecionar caractere de maneira individual com [] ex: b[2] ou b[0:4]
-# O igual = é para definir a variavel
+
 # Uma pincelada no conceito de Slicing é importante para que consiga trabalhar com Dashboard depois
 # Slicing para podermos fazer manipulaçao de dados.
 
@@ -198,7 +201,7 @@ b = 3 < 2   # É menor do que 2 ?
 c = 2 >= 2  # É maior ou igual do que 2 ?   
 d = 2 <= 2  # É menor ou igual do que 2 ?      
 e = 2 != 2  # É diferente do que 2 ?                               
-False       #Sao Operadores que vamos combinar apenas com: Boolianos
+False       #Sao Operadores que vamos combinar apenas com: Boolianos. Objeto do tipo 'bool' não possui len()
 True        #Principais tipos de Comparações. Misturar essas comparações,
             #Com outros elementos como AND e OR
             #Utilizando parametros para agrupar essas operações
@@ -279,14 +282,15 @@ AULA 7 # If, Elif e Else
 A penultima aula dessa parte introdutória de Python, vamos falar sobre Estrutura de Controle de Fluxo, 
 ou seja, agente permitir que o código va para um lado e va para um outro, dependendo da regra pré-estabelecida
 
-#if -> traduçao literal é-> se. if -> vem combinado com um booliano
-# É eu perguntando para o computador, se alguma coisa for verdadeira, quero que faça algo.
-# else -> Traduçao literal: "Se nao"
+Variavel idade armazena o valor 18
+#If-> Verifica se a variavel idade é maior ou igual 17
+#Elif->Verifica se a variavel idade é maior ou igual a 18 e se possuir carteira tbm for correto vai exibir  mensagem do elif 
+#Else ->Só é executado se nenhuma das condições anteriores for verdadeira
 
 If combinado com boleano comparado com operadores de Operaçao de cadeias, estamos decidindo que trechos ele vai 
 executar ou nao, vai ignorar alguns trechos e vai executar outros trechos
 
-idade = 18
+idade = 17
 possui_carteira = False
 
 if(idade >= 18) and possui_carteira: 
@@ -300,6 +304,37 @@ Essa aula foi uma estrutura de controle de fluxo, define para onde nosso código
 
 -----------------------------------------------------------------------------------------------------------------
 
-AULA 8 # For - Repetiçao - é a forma de ficar repetindo o código até que uma condiçao seja verdadeira.
+
+AULA 8 # For - Estrutura de repetiçao, é um laço. 
+
+
+É a forma de ficar repetindo o código até que uma condiçao seja verdadeira.
 Vai ajudar agente vai ser super útil que vai ver nossos Review e vai printar, tem review, printa, tem review...
 Ou seja, vai ficar vendo todos até acabar os Review
+
+
+# For = para cada x do meu a faça um print
+# For é útil, pois permite que agente desenvolva lógicas que precisem dessa repetiçao
+
+#Criamos uma lista de tamanho 5, elemento 0 é 1 e o elemento 4 é o 5. Numeros inteiros
+#iterador, como elemento para o for executar varias vezes, um lista.
+#For Podemos usar lista, string... #Para cada
+#No for temos que combinar um iteravel que aprendemos que é uma lista
+#Vamos pegar esse iteravel e vamos usar o for para decompor ele e ao mesmo tempo ele vai
+#Decompondo nosso iterario, ele vai executando o trecho de código embaixo
+
+
+# Range -> Vai criar para agente uma sequencia de números 
+# ELe vai gerar uma sequencia de acordo com os parametros que agente colocar aqui dentro
+# Primeiro parametro do Range é criar um valor inicial dele, quero começar do zero 
+# Segundo parametro do Range é 
+SE abrir o parenteses dentro de algum método e derem barra de espaço, ele vai dizer quais sao os parametros desse cara
+
+
+
+
+
+
+
+for x in range(0, 10, 1): # ELe vai iniciar no Zero, parar no 9 - um antes do que definimos 10
+      print(x)
