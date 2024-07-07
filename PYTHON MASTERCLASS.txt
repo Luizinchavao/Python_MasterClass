@@ -31,7 +31,7 @@ print("Hello Python")  # O print ele printa a mensagem na tela com parametros " 
 Python tem 2 tipos basicos de números:
 
 INTEIROS   e   DECIMAIS
-1 int               0,5 -> Tratado como um float
+1 -> int               0,5 -> Tratado como um float
 
 # Numeros, Matematica
 
@@ -42,7 +42,12 @@ print(1/2)  # Divisao
 print(1**2) # Elevado ao quadrado
 
 
-print(type (1))             # Checar o tipo de qualquer dado ex numero (1)
+print(type (1))          
+
+
+
+
+   # Checar o tipo de qualquer dado ex numero (1) int
 
 --------------------------------------------------------------------------------------------
 
@@ -100,7 +105,7 @@ Out[12]: 'Ola, Luizin'
 
 # Alguns conceitos importantes de string -> Concatenaçao de string, ele soma junta as strings.
 # Em string = str -> Operaçao de subtraçao (-) nao sao permitidas.
-# Em string -> Pode somar com string, com numeros nao da erro. 
+# Em string -> Pode somar com string, com numeros nao, da erro. 
 # Em string -> Voce pode concatenar str nao inteiros com str nao inteiros ex: TypeError.             
 
                                 Um exemplo de erro:
@@ -115,7 +120,7 @@ TypeError: can only concatenate str (not "int") to str
 
 # Variaveis->  
 
-São caixas que ele IDE ex: Python C++, cria para agente guardar valores.
+São caixas que ele IDE ex: Python, C++, cria para agente guardar valores.
 Ele vai carregar esses valores com ele a medida que o script estiver executando.
 Se agente definir matar o script, ou desligar ele, ele vai jogar fora todas as caixas.
 Todas essas informaçoes sao temporarias.
@@ -316,25 +321,116 @@ Ou seja, vai ficar vendo todos até acabar os Review
 # For = para cada x do meu a faça um print
 # For é útil, pois permite que agente desenvolva lógicas que precisem dessa repetiçao
 
-#Criamos uma lista de tamanho 5, elemento 0 é 1 e o elemento 4 é o 5. Numeros inteiros
-#iterador, como elemento para o for executar varias vezes, um lista.
-#For Podemos usar lista, string... #Para cada
+
+# Isso aqui o for vai trocando o valor dessa variavel x, vai ser descartada depois
+#Criamos uma lista de tamanho 5, elemento 0 é 1 e o elemento 4 é o 5. Sao numeros inteiros.
+#iterador como elemento para o for executar varias vezes, uma lista.
+#For podemos usar lista, string... 
 #No for temos que combinar um iteravel que aprendemos que é uma lista
-#Vamos pegar esse iteravel e vamos usar o for para decompor ele e ao mesmo tempo ele vai
+#Vamos pegar esse iteravel e vamos usar o for para decompor ele e ao mesmo tempo que ele vai
 #Decompondo nosso iterario, ele vai executando o trecho de código embaixo
 
 
-# Range -> Vai criar para agente uma sequencia de números 
-# ELe vai gerar uma sequencia de acordo com os parametros que agente colocar aqui dentro
-# Primeiro parametro do Range é criar um valor inicial dele, quero começar do zero 
-# Segundo parametro do Range é 
+
 SE abrir o parenteses dentro de algum método e derem barra de espaço, ele vai dizer quais sao os parametros desse cara
 
 
 
+# Range ->  Vai gerar, criar uma sequência de números de acordo com o parametro que vamos colocar aqui.
+# Primeiro Parametro - É o start - o valor inicial, vou começar do 0
+# Segundo  Parametro - É o stop - vai dizer onde ele vai parar ex: no 10
+# Terceiro Parametro - É o Step - que é de quanto em quanto ele vai andando para chegar, para ir do ínicio até o fim ex: 1
+# Ele vai iniciar no 0, terminar no 9, porque ele para um antes do 10, e andando de um e um.
 
 
+for x in range(1, 10, 2): # Troquie o step por 2 # Se nao inform																					ar nada no start, ele sabe que é 0.Se nao informar nada no step, ele entende 1
+    print(x)							
+																																																																																																																																																																																																																																																											
 
 
-for x in range(0, 10, 1): # ELe vai iniciar no Zero, parar no 9 - um antes do que definimos 10
+for x in range(0, 10, 1): # aqui troquei Step por 1 - ELe vai iniciar no Zero, parar no 9 - um antes do que definimos 10
       print(x)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Modulo 2 - AULA - 1 Como montaremos nosso aplicativo web
+
+Esse projeto serve para analisar os dados de vendas dos 100 livros mais vendidos da amazon, coletados em novembro de 2023
+# Temos a lista de livros
+# Temos os preços dos livros
+# Rating
+# autor																																																																																																																																																																																																																																							
+# Embaixo eu tenho uma distribuiçao do ano na qual os livros foram publicados
+# Tenho a distribuiçao de preços
+# Eu posso fazer alguns cortes nesses dados por exemplo: pegar livros que nao sejam tao caros.
+# Reparem que o grafico aqui ele automaticamente muda em funçao de tudo  o que agente fez.
+# Posso clicar aqui na parte Book Review e também selecionar livro a livro
+# Para poder ver como estes livros estao avaliados, tenho aqui o preço, o ano, a data de publicaçao 
+# E varios comentarios aqui de pessoas. Eu poderia colocar outras coisas nesse projeto, a medida que agente for desenvolvendo.
+
+
+Bibliotecas no Python->
+
+Existem uma infinidade de bibliotecas pra ja prontas para agente -> E quando agente aprende a usa-las, todo nosso trabalho fica muito mais rapido
+e agente pode combinar essas ferramentasque os terceiros ja desenvolveram pra gente com ferramentas basicas do Python
+A palavra import -> Vai permitir que eu puxe coisas.
+
+Quais sao as ferramentas que agente vai ultilizar para poder construir esse projeto?
+
+Primeira biblioteca 
+
+Streamlit ->   import steamlit as st
+
+Ela é uma biblioteca que permite que agente construa aplicativos web, muito rapidamente, muito facilmente.
+Ela é forte porque casa com outras bibliotecas do Python que é analise de dados, o Python é forte.
+E o Streamlit nos da uma série de ferramentas para que agente consiga trabalhar com dados e criar dashboards ou aplicativos web de forma super facil.
+Tem muita coisa para prender com Streamlit.
+
+Segunda biblioteca 
+
+Pandas ->   import pandas as st
+
+É uma biblioteca muito poderosa para manipulaçao e tratamento de dados
+É como se fosse o Excel imbutido dentro do Python. Só que agente vai controlar esse Excel de maneira programatica, com linhas de códigos.
+Ela é uma biblioteca muito extensa - Vamos estudar os principais conceitos, entender que é uma ferramenta de manipulaçao de dados.
+
+
+Terceira biblioteca 
+
+Plotly -> import plotly as st
+
+Ela é uma biblioteca que permite que agente construa graficos com dados que sao oriundos do Pandas
+ 
+Estrtegia-
+		
+Pandas -> Vamos utilizar para carregar esse conjunto de dados, que ja vamos passar com dados da amazon
+Vamos carregar e manipular esses dados usando Pandas
+
+
+Streamlit -> De posse desses dados, vou utilizar o Streamlit para montar esse aplicativo web aqui.
+
+Plotly -> E vou utilizar o Plotly para montar esses graficos.
+
+Vamos ver que essas 3 ferramentas por mais que elas sejam potencialmente complexas, vou ter uma introduçao 
+basica para agente ja resolver problemas como esse, e até problemas mais complexos do que esse
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------		
+
+
+
+
+
+
+Modulo 2 - AULA - 2	 Executando o primeiro app Streamlit
+
+
+
+
